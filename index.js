@@ -3,7 +3,7 @@ const fs = require('fs');
 const youtubedl = require('youtube-dl-exec');
 
 (async () => {
-  const playlistURL = 'https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ'; // Replace with your playlist URL
+  const playlistURL = 'https://www.youtube.com/playlist?list='; // Replace with your playlist URL
 
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
