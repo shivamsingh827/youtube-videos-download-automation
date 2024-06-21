@@ -1,0 +1,8 @@
+*.mp4
+*.webm
+*.wmv
+
+/videos
+
+/node_modules
+/dist
